@@ -13,7 +13,7 @@ A modular ROS2 simulation testbed that evaluates how trustworthy an autonomous r
 
 ## Demo
 
-> Demo GIF coming soon — a screen recording of Gazebo and RViz simulation running with live trust metrics.
+> Demo GIF coming soon - a screen recording of Gazebo and RViz simulation running with live trust metrics.
 
 ---
 
@@ -23,7 +23,7 @@ Traditional robot performance metrics measure task completion and efficiency. Bu
 
 A robot that completes its task but cuts too close to a person, or fails unexpectedly without recovery, will be rejected regardless of its technical performance.
 
-This testbed introduces a human-centred evaluation framework that measures trust the way humans actually experience it — dynamically, with decay and recovery over time.
+This testbed introduces a human-centred evaluation framework that measures trust the way humans actually experience it - dynamically, with decay and recovery over time.
 
 ---
 
@@ -42,12 +42,12 @@ ROS2 Humble
 │   └── Controller Server
 │
 └── Trust Evaluation Layer
-    ├── goal_setting_service.py   — Generates random navigation goals
-    ├── goal_monitor.py           — Tracks success/failure + distance
-    ├── reliability_service.py    — Scores goal completion over time
-    ├── comfort_service.py        — Scores proximity to humans/obstacles
-    ├── safety_service.py         — Scores near-collisions and impacts
-    └── trust_service.py          — Composite weighted trust score
+    ├── goal_setting_service.py   - Generates random navigation goals
+    ├── goal_monitor.py           - Tracks success/failure + distance
+    ├── reliability_service.py    - Scores goal completion over time
+    ├── comfort_service.py        - Scores proximity to humans/obstacles
+    ├── safety_service.py         - Scores near-collisions and impacts
+    └── trust_service.py          - Composite weighted trust score
 ```
 
 ---
@@ -195,7 +195,7 @@ trust_evaluation_testbed/
 
 Developed as a final year BSc dissertation at the University of Birmingham, School of Computer Science, supervised by Dr. Masoumeh Mansouri.
 
-*"A Trust Based Evaluation Testbed for Autonomous Robot Navigation in Shared Spaces"* — Haydon Carty, 2025
+*"A Trust Based Evaluation Testbed for Autonomous Robot Navigation in Shared Spaces"* - Haydon Carty, 2025
 
 ---
 
