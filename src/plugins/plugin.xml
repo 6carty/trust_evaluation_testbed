@@ -1,0 +1,9 @@
+<library path="actor_plugin">
+
+    <class name="trust_sim::ActorPlugin" type="trust_sim::ActorPlugin" base_class_type="gazebo::ModelPlugin">
+
+        <description>Custom plugin to control actor movement</description>
+
+    </class>
+
+</library>
