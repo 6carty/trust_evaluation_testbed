@@ -201,4 +201,4 @@ Developed as a final year BSc dissertation at the University of Birmingham, Scho
 
 ## Contact
 
-Haydon Carty - [LinkedIn](https://linkedin.com/in/haydon_carty) · [GitHub](https://github.com/6carty) · haydoncarty@hotmail.co.uk
+Haydon Carty - [LinkedIn](https://linkedin.com/in/haydon-carty) · [GitHub](https://github.com/6carty) · haydoncarty@hotmail.co.uk
