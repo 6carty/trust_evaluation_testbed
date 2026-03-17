@@ -13,7 +13,11 @@ A modular ROS2 simulation testbed that evaluates how trustworthy an autonomous r
 
 ## Demo
 
-> Demo GIF coming soon - a screen recording of Gazebo and RViz simulation running with live trust metrics.
+> Here is the Goal Setting Service (takes an input for how many goals and randomly geenrates them via coordinates) working alongside the Goal Monitor service (checks if goals have been reached/failed so a new goal can be set). 
+![Adobe Express - Timeline 1](https://github.com/user-attachments/assets/74321345-135a-4524-85e9-b228075b65e4)
+
+> Here is the Reliability Metric in use, if the robot fails to reach the goal, reliability decays. If the robot successfully reaches the goal, reliability increases without going above 100%, if it has failed before, it will not get back to 100%.
+![Adobe Express - Timeline 1 2-2](https://github.com/user-attachments/assets/4804ffc6-a624-4745-869e-5d21388da99e)
 
 ---
 
